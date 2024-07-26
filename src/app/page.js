@@ -7,7 +7,7 @@ const carsData = [
   {
     id: 'ABC101',
     carName: "Model S",
-    image:"image.png",
+    image:"image12.png",
     brandName: "Tesla",
     modelName: "S",
     date: "2023",
@@ -15,7 +15,7 @@ const carsData = [
   {
     id: 'ABC102',
     carName: "Mustang",
-    image:"image1.png",
+    image:"image9.png",
     brandName: "Ford",
     modelName: "GT",
     date: "2022",
@@ -23,7 +23,7 @@ const carsData = [
   {
     id: 'ABC103',
     carName: "Civic",
-    image:"image3.png",
+    image:"image7.jpg",
     brandName: "Honda",
     modelName: "EX",
     date: "2021",
@@ -71,7 +71,7 @@ const carsData = [
   {
     id: 'ABC109',
     carName: "Model 3",
-    image:"image5.png",
+    image:"image8.png",
     brandName: "Tesla",
     modelName: "3",
     date: "2023",
