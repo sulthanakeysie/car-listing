@@ -2,7 +2,8 @@ import React from 'react';
 
 const Filter = ({ brands, models, selectedBrand, selectedModel, onBrandChange, onModelChange }) => {
   return (
-    <div className="flex space-x-4 mb-4 w-full md:w-auto flex md:block justify-end">
+    <div className="flex space-x-4 mb-4 w-full md:w-auto  justify-end items-center">
+        <p className='font-[500] md:block hidden'>Filter By</p>
       <select value={selectedBrand} onChange={(e) => onBrandChange(e.target.value)} className="p-2 border rounded-md shadow-sm">
         <option value="">All Brands</option>
         {brands.map(brand => (
