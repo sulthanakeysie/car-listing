@@ -43,7 +43,7 @@ const CarList = ({ cars }) => {
             >
               <Image
                 src={`/cars/${car.image}`}
-                alt={car.brandName}
+                alt={`${car.brandName} ${car.carName}`}
                 width={100}
                 height={100}
                 style={{ width: "100%", height: "200px" }}
